@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "swe.aktiebolagslag-2005-551"
+           :title "Aktiebolagslag (2005:551) (Swedish Companies Act)"
+           :jurisdiction "SWE"
+           :kind :law
+           :law-number "SFS 2005:551"
+           :url "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/aktiebolagslag-2005551_sfs-2005-551/"
+           :url-provenance :official-riksdagen-se
+           :enacted-date "2005-06-16"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "swe.dataskyddslagen-2018-218"
+           :title "Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning (Swedish Data Protection Act)"
+           :jurisdiction "SWE"
+           :kind :law
+           :law-number "SFS 2018:218"
+           :url "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218/"
+           :url-provenance :official-riksdagen-se
+           :enacted-date "2018-04-19"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "swe.arbetsmiljolag-1977-1160"
+           :title "Arbetsmiljölag (1977:1160) (Work Environment Act)"
+           :jurisdiction "SWE"
+           :kind :law
+           :law-number "SFS 1977:1160"
+           :url "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/arbetsmiljolag-19771160_sfs-1977-1160/"
+           :url-provenance :official-riksdagen-se
+           :enacted-date "1977-12-19"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
