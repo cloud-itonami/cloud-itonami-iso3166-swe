@@ -14,13 +14,7 @@
           :rep-provenance "https://www.upphandlingsmyndigheten.se/"
           :corporate-number-owner-authority "Bolagsverket / Skatteverket"
           :corporate-number-legal-basis "Organisationsnummer"
-          :corporate-number-provenance "https://www.bolagsverket.se/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "DEU" {:name "Germany" :owner-authority "e-Vergabe" :legal-basis "GWB/VgV" :national-spec "e-Vergabe" :provenance "https://www.evergabe-online.de/"
-          :required-evidence ["Handelsregister extract" "e-Vergabe registration record" "USt-IdNr record" "Authorized-representative record"]}
-   "NOR" {:name "Norway" :owner-authority "Doffin" :legal-basis "Anskaffelsesloven" :national-spec "Doffin" :provenance "https://www.doffin.no/"
-          :required-evidence ["Org.nr record" "Doffin registration" "Brønnøysund extract" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.bolagsverket.se/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
